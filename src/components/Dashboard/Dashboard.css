@@ -1,0 +1,29 @@
+.Dashboard {
+  margin: 1em 10px;
+}
+
+.dashboard-investment-opt {
+  gap: 1em;
+  font-size: 17px;
+  margin: 5px 0;
+}
+
+.dashboard-investment-opt div {
+  padding: 4px 1em;
+  border-radius: 6px;
+  border: 1px solid rgb(170, 170, 170);
+}
+
+.dashboard-investment-opt div:hover {
+  cursor: pointer;
+  background-color: #bebebeb9;
+}
+
+.donut-container {
+  justify-content: space-evenly;
+}
+
+.donut-container div {
+  margin: 1em 0;
+  width: 60%;
+}

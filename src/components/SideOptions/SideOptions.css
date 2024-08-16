@@ -1,0 +1,40 @@
+.SideOptions {
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: calc(100vh - 70px);
+  max-height: calc(100vh - 70px);
+  height: auto;
+  padding: 1em;
+  gap: 1em;
+  color: white;
+  background-color: lightseagreen;
+  position: sticky;
+  left: 0;
+  top: 70px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1;
+}
+
+.SideOptions span {
+  text-align: center;
+}
+
+.sideoption-element {
+  gap: 5px;
+  font-size: 1.2em;
+  padding: 5px 7px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.sideoption-element:hover {
+  transition: all 0.1s ease-in-out;
+  background-color: #7c7c7c;
+}
+
+.sideoptions-utilities-options div {
+  font-size: 17px;
+  margin-left: 1em;
+}

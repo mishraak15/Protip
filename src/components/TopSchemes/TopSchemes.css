@@ -1,0 +1,25 @@
+.topschemes-details {
+  min-width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 2em;
+}
+
+.topschemes-details th {
+  padding: 10px;
+  font-size: 1.3em;
+  border: 1px solid grey;
+}
+
+.topschemes-details th:hover {
+  cursor: pointer;
+  border-color: lightseagreen;
+  color: lightseagreen;
+}
+
+.topschemes-details td {
+  padding: 3px 5px;
+  font-size: 18px;
+  border: 1px solid grey;
+}

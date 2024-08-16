@@ -1,0 +1,9 @@
+.Home {
+  /* height: 1220px; */
+  align-items: flex-start;
+}
+
+.Home-right {
+  margin: 1em 10px;
+  flex: 5;
+}

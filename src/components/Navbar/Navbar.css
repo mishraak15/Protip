@@ -1,0 +1,40 @@
+.Navbar {
+  justify-content: space-between;
+  padding: 2px 10px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 7px grey;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 222;
+  background-color: white;
+}
+
+.nav-left {
+  justify-content: center;
+  gap: 6px;
+}
+
+.nav-left span,
+.nav-icon {
+  font-size: 1.5em;
+}
+
+.nav-right {
+  gap: 2em;
+  margin-right: 1em;
+}
+
+.nav-right a {
+  gap: 3px;
+}
+
+.nav-right div {
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.nav-right span {
+  font-size: 15px;
+}

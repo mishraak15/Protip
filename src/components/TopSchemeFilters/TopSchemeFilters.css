@@ -1,0 +1,39 @@
+.TopSchemeFilters {
+  gap: 1em;
+  margin: 10px 0;
+  color: grey;
+  align-items: flex-end;
+}
+
+.TopSchemeFilters div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 25%;
+}
+
+.topscheme-inp {
+  background-color: white;
+}
+
+.topscheme-inp,
+.TopSchemeFilters button {
+  padding: 7px 10px;
+  font-size: 17px;
+  border: 1px solid lightseagreen;
+  border-radius: 4px;
+  color: grey;
+}
+
+.TopSchemeFilters button {
+  background-color: lightseagreen;
+  color: white;
+  width: 140px;
+}
+
+.TopSchemeFilters button:hover {
+  cursor: pointer;
+  color: lightseagreen;
+  background-color: transparent;
+  transition: all 0.1s ease-in-out;
+}
